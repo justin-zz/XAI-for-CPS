@@ -51,7 +51,7 @@
 
 
 ### What Makes a 'Good' Explanation?
--  faithfulness: 0.85,  # Actually reflects model reasoning
+-  faithfulness: 0.85,  # Actually reflects model reasoning (see below for definition)
 -  comprehensibility: "High",  # Understandable to security analysts
 -  actionability: "Medium",  # Suggests specific next steps
 -  conciseness: "Lists top 3 causes",  # Not overwhelming

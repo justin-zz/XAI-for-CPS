@@ -1,11 +1,20 @@
-## Requirements
+
+
+
+## System
+Ubuntu 22.04
+120GB Storage
+
+## Required Apps
 git
 docker
+vim
+pip3 install pandas numpy scikit-learn matplotlib seaborn joblib
 
 ## Optional (convenience)
 https://github.com/shiftkey/desktop/releases
 
-## Issues and Solutions
+## Troubleshooting
 
 user not in sudoers error (no super user access)
 https://unix.stackexchange.com/questions/179954/username-is-not-in-the-sudoers-file-this-incident-will-be-reported
@@ -15,3 +24,9 @@ sudo sh ./VBoxLinuxAdditions.run
 
 Permission denied when trying to run <cmd>?
 sudo <cmd>
+
+CICFlowMeter file doesn't run?
+Get the corrected file from the repo
+
+Conda create command didn't work? Try:
+conda create --solver=libmamba -n pycaretgpu -c rapidsai -c conda-forge -c nvidia rapids=24.04 python=3.10 cuda-version=11.8 tensorflow xgboost
