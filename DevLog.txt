@@ -1,0 +1,17 @@
+## Requirements
+git
+docker
+
+## Optional (convenience)
+https://github.com/shiftkey/desktop/releases
+
+## Issues and Solutions
+
+user not in sudoers error (no super user access)
+https://unix.stackexchange.com/questions/179954/username-is-not-in-the-sudoers-file-this-incident-will-be-reported
+
+Clipboard not working? Screen not going fullscreen? (find the .run file below in the disk icon on the favorites)
+sudo sh ./VBoxLinuxAdditions.run
+
+Permission denied when trying to run <cmd>?
+sudo <cmd>
